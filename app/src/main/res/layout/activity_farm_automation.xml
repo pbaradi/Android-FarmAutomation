@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Farm Maintenance"
+        android:id="@+id/textView"
+        android:textColor="#010101"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#ffffff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"></View>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_fan"
+        android:layout_gravity="center_horizontal"
+        android:background="#ea4343"
+        android:textColor="#FFFFFF"
+        android:textSize="32dp"
+        android:text="Fan Off"
+        android:gravity="center_horizontal"
+        android:padding="20dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"></View>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txt_sprinkler"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:text="Sprinkler Off"
+        android:background="#da8ce5"
+        android:textSize="32dp"
+        android:gravity="center_horizontal"
+        android:padding="20dp" />
+</LinearLayout>
